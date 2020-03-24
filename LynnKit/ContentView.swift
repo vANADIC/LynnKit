@@ -10,10 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView{
-            _9table().tabItem({Text("99表")})
-            RandomDigit().tabItem({Text("读数字")})
-        }
+//        TabView{
+//            _9table().tabItem({Text("99表")})
+//            RandomDigit().tabItem({Text("读数字")})
+//        }
+        Questions()
     }
 }
 

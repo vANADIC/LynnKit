@@ -9,17 +9,23 @@
 import SwiftUI
 
 struct Exercise: View {
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        VStack{
-            Button(action: {}, label: {Text("换一题")})
-            
+        ZStack{
+            QuestionsSelected()
+            Questions()
         }
-        
     }
 }
 
+
+
+
 struct Exercise_Previews: PreviewProvider {
     static var previews: some View {
-        Exercise()
+        Exercise().environmentObject(UserData())
+        
+//        QuestionView().environmentObject(UserData())
     }
 }
