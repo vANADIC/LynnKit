@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8117E1AB242F129300BD1EF7 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117E1AA242F129300BD1EF7 /* LessonOne.swift */; };
+		8117E1AD242F12AE00BD1EF7 /* ViewHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117E1AC242F12AE00BD1EF7 /* ViewHidden.swift */; };
 		816E8A30241A585A00334776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A2F241A585A00334776 /* AppDelegate.swift */; };
 		816E8A32241A585A00334776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A31241A585A00334776 /* SceneDelegate.swift */; };
 		816E8A34241A585A00334776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A33241A585A00334776 /* ContentView.swift */; };
@@ -17,6 +19,7 @@
 		816E8A46241A688A00334776 /* RandomDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A45241A688A00334776 /* RandomDigit.swift */; };
 		816E8A4B241A6BA400334776 /* SpeechText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A4A241A6BA400334776 /* SpeechText.swift */; };
 		816E8A4D241A760000334776 /* o.Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E8A4C241A760000334776 /* o.Exercise.swift */; };
+		817864F4242C4F1B00DADBCD /* CardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817864F3242C4F1B00DADBCD /* CardAnimation.swift */; };
 		81B786D62420B323005B3DDF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B786D52420B323005B3DDF /* Profile.swift */; };
 		81B786D82420B64E005B3DDF /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B786D72420B64E005B3DDF /* TestUI.swift */; };
 		81B786DA2420EFFE005B3DDF /* CircleSybmol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B786D92420EFFE005B3DDF /* CircleSybmol.swift */; };
@@ -27,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8117E1AA242F129300BD1EF7 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
+		8117E1AC242F12AE00BD1EF7 /* ViewHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHidden.swift; sourceTree = "<group>"; };
 		816E8A2C241A585A00334776 /* LynnKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LynnKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816E8A2F241A585A00334776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		816E8A31241A585A00334776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		816E8A45241A688A00334776 /* RandomDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDigit.swift; sourceTree = "<group>"; };
 		816E8A4A241A6BA400334776 /* SpeechText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechText.swift; sourceTree = "<group>"; };
 		816E8A4C241A760000334776 /* o.Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o.Exercise.swift; sourceTree = "<group>"; };
+		817864F3242C4F1B00DADBCD /* CardAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnimation.swift; sourceTree = "<group>"; };
 		81B786D52420B323005B3DDF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		81B786D72420B64E005B3DDF /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 		81B786D92420EFFE005B3DDF /* CircleSybmol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSybmol.swift; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 				816E8A31241A585A00334776 /* SceneDelegate.swift */,
 				816E8A33241A585A00334776 /* ContentView.swift */,
 				816E8A43241A590800334776 /* 99table.swift */,
+				8117E1AA242F129300BD1EF7 /* LessonOne.swift */,
 				816E8A45241A688A00334776 /* RandomDigit.swift */,
 				81EBE0472424F17E007BDA80 /* UserData.swift */,
 				816E8A4C241A760000334776 /* o.Exercise.swift */,
@@ -109,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				816E8A4A241A6BA400334776 /* SpeechText.swift */,
+				8117E1AC242F12AE00BD1EF7 /* ViewHidden.swift */,
 			);
 			path = unit;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 				81B786D72420B64E005B3DDF /* TestUI.swift */,
 				81B786D92420EFFE005B3DDF /* CircleSybmol.swift */,
 				81B786DB2420F49D005B3DDF /* PopUpMenu.swift */,
+				817864F3242C4F1B00DADBCD /* CardAnimation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,8 +210,11 @@
 				81EBE04E24280F95007BDA80 /* o.Questions.swift in Sources */,
 				816E8A44241A590800334776 /* 99table.swift in Sources */,
 				816E8A46241A688A00334776 /* RandomDigit.swift in Sources */,
+				8117E1AD242F12AE00BD1EF7 /* ViewHidden.swift in Sources */,
 				81B786DC2420F49D005B3DDF /* PopUpMenu.swift in Sources */,
+				8117E1AB242F129300BD1EF7 /* LessonOne.swift in Sources */,
 				81EBE0482424F17E007BDA80 /* UserData.swift in Sources */,
+				817864F4242C4F1B00DADBCD /* CardAnimation.swift in Sources */,
 				816E8A4B241A6BA400334776 /* SpeechText.swift in Sources */,
 				816E8A4D241A760000334776 /* o.Exercise.swift in Sources */,
 				81EBE04A2424F25D007BDA80 /* ExerciseSetting.swift in Sources */,
@@ -349,6 +361,7 @@
 				DEVELOPMENT_TEAM = 82872T6VHY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LynnKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,6 +382,7 @@
 				DEVELOPMENT_TEAM = 82872T6VHY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = LynnKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

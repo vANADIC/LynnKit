@@ -15,7 +15,7 @@ struct Profile: View {
                 Rectangle()
                     .frame(width: 72.5,height: 45)
                     .cornerRadius(22.5)
-                    .offset(x: -22.5)
+                    .offset(x: -40)
                     .foregroundColor(Color.white)
                     .shadow(radius: 5)
                 Image(systemName: "list.dash")
@@ -23,16 +23,16 @@ struct Profile: View {
                     .resizable()
                     .frame(width: 15, height: 15)
                     .foregroundColor(Color.black)
-                    .offset(x: -12)
+                    .offset(x: -30)
             }
             
             Spacer().frame(width: 20)
             VStack(alignment: .leading){
-                Text("课件").font(.title)
+                Text("Lynn 课件").font(.title)
                 Text("练习次数：20").font(.subheadline)
             }
             Spacer()
-            TestUI().frame(width: 45, height: 45)
+//            TestUI().frame(width: 45, height: 45)
             ZStack{
                 Circle()
                     .frame(width: 45, height: 45)
